@@ -1,0 +1,387 @@
+/* blue-sky skin styles */
+body {
+    background: #ececec url(images/blue-sky/body_bg.jpg) top repeat-x;
+}
+
+#bgWrapper {
+    background: url(images/blue-sky/main_bg.jpg) top center no-repeat;
+}
+
+#logoMenu {
+    background: url(images/blue-sky/border_bot.png) bottom repeat-x;
+}
+
+#navtop {
+    margin: 0 auto;
+    width: 100%;
+    background: #01719f url(images/blue-sky/nav_top.jpg) bottom center no-repeat;
+}
+
+a {
+    color: #b3deea;
+}
+
+a:hover {
+    color: #092a49;
+}
+
+.sf-menu a {
+    color: #b2d3e1;
+}
+
+#topCaption p {
+    color: #ffffff !important;
+}
+
+.postExcerpt h1 a, .fwh1 a, .fwh1m a {
+    color: #01719f;
+    text-decoration: none;
+}
+
+.postExcerpt h1 a:hover, .fwh1 a:hover, .fwh1m a:hover {
+    color: #45515d;    
+}
+
+.sidebarRight ul li ul li:hover a {
+    color: #2c343a;	
+}
+
+.sf-menu li:hover a, .current-menu-item a {
+    color: #ffffff;
+    border-bottom: 4px solid #b2d3e1;
+}
+
+.sf-menu li li a {
+    background: #d8edf4;
+    border-bottom: 1px solid #cbdfe6 !important;
+    color: #019ac1 !important;
+}
+
+.sf-menu li li:hover a {
+    border-bottom: 1px solid #dcdfe2 !important;
+    background:#ffffff;
+    color: #3c4349 !important;
+}
+
+.sf-menu li li li a {
+    background:#d8edf4;
+    color: #019ac1 !important;
+}
+
+.sf-menu li li:hover li a {
+    background:#d8edf4;
+    color: #019ac1 !important;
+}
+
+.sf-menu li li li a:hover {
+    background:#ffffff !important;
+    color: #3c4349 !important;
+}
+
+
+.bigButton {
+    background: url(images/blue-sky/bigbutton_s.jpg) repeat-x top;
+    color: #838889;
+}
+
+.bigButton:hover {
+    background: url(images/blue-sky/bigbutton_s.jpg) repeat-x bottom;
+    color: #ffffff;  
+}
+
+
+.bigButton span {
+    background: url(images/blue-sky/big_button_arrow.png) no-repeat right;
+}
+
+.bigButton:hover span {
+    background: url(images/blue-sky/big_button_arrow_h.png) no-repeat right;
+}
+
+.mediumButton, #submitC, .mediumButtonLeft, .wpcf7-submit   {
+    color: #838889;
+    background: url(images/blue-sky/mediumbutton_s.jpg) top repeat-x;
+}
+
+.mediumButton:hover, #submitC:hover, .mediumButtonLeft:hover, .wpcf7-submit:hover  {
+    background: url(images/blue-sky/mediumbutton_s.jpg) bottom repeat-x;
+    color: #ffffff;  
+}
+
+.mediumButton:hover span {
+    background: url(images/blue-sky/medium_button_arrow.png) right center no-repeat;    
+}
+
+.mediumButtonLeft:hover span {
+    background: url(images/blue-sky/medium_button_arrow_l.png) left center no-repeat;    
+}
+
+#singleTitle {
+    background: #01abca url(images/blue-sky/title_bg.jpg) top repeat-x;
+    border-bottom: 1px solid #01abca;
+    width: 980px;
+    margin: 0 auto;
+}
+
+h1.titleBlog {
+    color: #01abca;   
+}
+
+.infobox5 {
+	width: 100%;
+	font: 30px 'TitilliumText22LBold', sans-serif;
+	background: #0199c1;
+        padding-bottom: 10px;
+}
+
+.infobox5 p {
+    color: #ffffff !important;
+}
+.dmtagcloud a {
+    background: url(images/blue-sky/tag_bg.png) left top no-repeat !important;
+}
+
+#foot_widgets_topB {
+    background: #0172a0 url(images/blue-sky/foot_bg.jpg) no-repeat top center;
+}
+
+#foot_widgets_botB {
+    background: #0172a0 url(images/blue-sky/foot_bg.jpg) no-repeat ;
+}
+
+.comm_reply_box:hover {
+	background: url(images/blue-sky/replyh.png) left center no-repeat;	
+}
+
+#the_tweet {
+    background: url(images/blue-sky/twitty.png) no-repeat left center;
+}
+
+#twitter_footer .bigButton:hover {
+    background: url(images/blue-sky/bigbutton_h.jpg) repeat-x;    
+}
+
+#foot_widgets_hide {
+    background: url(images/blue-sky/footer_hide.jpg);
+}
+
+.CS_searchform {
+	background: url(images/blue-sky/search_bg.png) no-repeat left !important;
+}
+
+.CS_searchform_button {
+	background: url(images/blue-sky/search_icon.png) no-repeat top !important;
+}
+
+.CS_searchform_button:hover {
+	background: url(images/blue-sky/search_icon_h.png) no-repeat top !important;    
+}
+
+#DMbreadcumbs {
+    background: url(images/blue-sky/home_icon.png) no-repeat left top;
+    color: #b3deea;
+}
+
+.dm_slider_tab {
+	background: #ffffff url(images/blue-sky/dmbg.jpg) no-repeat 0px 5px;
+    	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.dm_slider_tab:hover h1 {
+	color: #727272;
+}
+
+.dm_slider_tab h1 {
+	position: relative;
+	font: 14px 'TitilliumText22LMedium', sans-serif;
+	text-transform: uppercase;
+	color: #919191;
+	text-shadow: #ffffff 0px -1px;
+}
+
+.dm_slider_play {
+	background: url(images/play.png);
+}
+
+#foot_widgets_hide p {
+    color: #ffffff;
+}
+
+#foot_last {
+    color: #4d89a1;
+    background: url(images/blue-sky/foot_cp.jpg) repeat-x top;
+}
+
+.footerSidebar, .footerSidebar a, .footerSidebarBot, .footerSidebarBot a {
+    color: #ffffff !important;
+}
+
+#foot_widgets_top ul li ul li, #foot_widgets_bot ul li ul li {
+	border-bottom: 1px dotted #2093b7;
+}
+
+#side_nav a {
+	color: #01719f;
+}
+
+.sidebarRight a {
+	color: #01719f;
+}
+
+.sidebarRight {
+	color: #01719f;
+}
+
+.categories a:hover, .categoriesS a:hover {
+    color: #01719f;
+}
+
+.infobox4 {
+	background: #d8edf4;
+}
+
+.infobox4 p {
+	color: #01719f;
+}
+
+.contentbox2 {
+	background: #0180a2;
+}
+
+.titlebox2 {
+	background: #0199c1;
+}
+
+#foot_widgets_top ul li ul li:hover, #foot_widgets_bot ul li ul li:hover {
+	background: url(images/blue-sky/li_arrow.png) left center no-repeat !important;
+}
+
+#foot_widgets_top .LPlink span {
+    color: #78b9d0 !important;
+}
+
+.CS_searchform {
+	color: #ffffff !important;
+}
+
+.tableDark th {
+	background: #313131 !important;
+	color: #ffffff;
+}
+
+.pricingTable {
+	width: 100%;
+	text-align: center;
+	border: 1px solid #eeeeee;
+}
+
+.pricingTable th {
+	border: 0px !important;
+	border-right: 1px solid #dddddd !important;
+	font: 16px 'TitilliumText22LMedium', sans-serif;
+	color: #313131;
+	background: #e9e9e9 url(images/table_h_bg.jpg) top repeat-x;
+	padding: 5px 0px;
+}
+
+th.special {
+	font: 24px 'TitilliumText22LBold', sans-serif;
+	color: #ffffff;
+}
+
+.pricingTable td {
+	font: 12px Lucida Sans Unicode, Lucida Grande, sans-serif;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+}
+
+.pricingTable td.priceT {
+	background: #f7f7f7;
+}
+
+.priceFont {
+	font: 48px Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color: #019ac1;
+
+}
+
+.perMonthFont {
+	font: 14px 'TitilliumText22LRegular', sans-serif;	
+}
+
+.priceSpecial {
+	color: #313131;
+}
+
+.pricingTable tfoot td a {
+	display: block !important;
+	padding: 0px 20px !important;
+	margin: 0px 20px;
+}
+
+th.special {
+	border-top: 25px solid #019ac1 !important;
+	border-right: 5px solid #019ac1 !important;
+	border-left: 5px solid #019ac1 !important;
+	background: #019ac1;
+}
+
+.priceSpecial {
+	border-right: 5px solid #019ac1 !important;
+	border-left: 5px solid #019ac1;
+}
+
+.pricingTable tfoot td.footerSpecial {
+	border-right: 5px solid #019ac1 !important;
+	border-left: 5px solid #019ac1;
+	border-bottom: 5px solid #019ac1;	
+}
+
+.footerSidebar h2, .footerSidebarBot h2 {
+    color: #ffffff !important;
+}
+
+#footer input, #footer textarea {
+    background: #00719b url(images/blue-sky/footinput.jpg) repeat-x top;
+    border-bottom: 1px solid #4d9cb9;
+    color: #4d9cb9;
+}
+
+#footer textarea:focus {
+    border:none;
+    border-bottom: 1px solid #4d9cb9;
+}
+
+#footer form p {
+    color: #ffffff;
+}
+
+#footer .wpcf7-submit {
+    background: url(images/blue-sky/mediumbutton_s.jpg) bottom !important;
+    color: #ffffff !important;
+    border: none;
+}
+
+.infobox5 .mediumButton {
+    background: url(images/blue-sky/infobox1b.jpg) bottom repeat-x !important;
+    color: #ffffff !important;
+    text-shadow: none;
+}
+
+.infobox5 .mediumButton:hover {
+    background: url(images/blue-sky/infobox1b.jpg) top repeat-x !important;
+    color: #20639a !important;
+}
+
+.infobox4 .mediumButton {
+    background: url(images/blue-sky/infobox1b.jpg) top repeat-x !important;
+        color: #20639a !important;
+
+}
+
+.infobox4 .mediumButton:hover {
+    background: url(images/blue-sky/infobox1b.jpg) bottom repeat-x !important;
+    color: #ffffff !important;
+}

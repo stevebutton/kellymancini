@@ -1,0 +1,391 @@
+/* purple skin styles */
+body {
+    background: #ececec url(images/purple/body_bg.jpg) top repeat-x;
+	/* background-image: url(/gfx/backtexture.jpg);
+	background-repeat: repeat;*/
+}
+
+#bgWrapper {
+    background: url(images/purple/main_bg.jpg) top center no-repeat;
+}
+
+#logoMenu {
+    background: url(images/purple/border_bot.png) bottom repeat-x;
+}
+
+#navtop {
+    margin: 0 auto;
+    width: 100%;
+    background: url(images/purple/nav_top.jpg) bottom center no-repeat;
+}
+
+a {
+    color: #ce9c3e;
+	/*font-weight: bold;*/
+}
+
+a:hover {
+    color: #000;
+}
+
+.sf-menu a {
+    color: #fff;
+}
+
+#topCaption p {
+    color: #ffffff !important;
+}
+
+.postExcerpt h1 a, .fwh1 a, .fwh1m a {
+    color: #CE9C3E;
+    text-decoration: none;
+}
+
+.postExcerpt h1 a:hover, .fwh1 a:hover, .fwh1m a:hover {
+    color: #000;    
+}
+
+.sidebarRight ul li ul li:hover a {
+    color: #000;	
+}
+
+.sf-menu li:hover a, .current-menu-item a {
+    color: #000;
+  /*  border-bottom: 4px solid #000;*/
+}
+
+.sf-menu li li a {
+    background: #ececec;
+    border-bottom: 1px solid #eadae5 !important;
+    color: #000 !important;
+}
+
+.sf-menu li li:hover a {
+    border-bottom: 1px solid #dcdfe2 !important;
+    background:#ffffff;
+    color: #3c4349 !important;
+}
+
+.sf-menu li li li a {
+    background: #f9e8f3;
+    color: #c670a5 !important;
+}
+
+.sf-menu li li:hover li a {
+    background: #ececec;
+    color: #c670a5 !important;
+}
+
+.sf-menu li li li a:hover {
+        background:#ffffff;
+    color: #3c4349 !important;
+}
+
+
+.bigButton {
+    background: url(images/purple/bigbutton.jpg) center;
+    color: #838889;
+}
+
+.bigButton:hover {
+    background: url(images/purple/bigbutton_h.jpg) center;
+    color: #ffffff;  
+}
+
+
+.bigButton span {
+    background: url(images/purple/big_button_arrow.png) no-repeat right;
+}
+
+.bigButton:hover span {
+    background: url(images/purple/big_button_arrow_h.png) no-repeat right;
+}
+
+.mediumButton, #submitC, .mediumButtonLeft, .wpcf7-submit  {
+    color: #838889;
+    background: url(images/purple/mediumbutton.jpg) repeat-x;
+}
+
+.mediumButton:hover, #submitC:hover, .mediumButtonLeft:hover, .wpcf7-submit:hover {
+    background: url(images/purple/mediumbutton_h.jpg) repeat-x;
+    color: #ffffff;  
+}
+
+.mediumButton:hover span {
+    background: url(images/purple/medium_button_arrow.png) right center no-repeat;    
+}
+
+.mediumButtonLeft:hover span {
+    background: url(images/purple/medium_button_arrow_l.png) left center no-repeat;    
+}
+
+#singleTitle {
+    background: #fff url(images/purple/title_bg.jpg) top repeat-x;
+   /* border-bottom: 1px solid #3f1628;*/
+    width: 980px;
+    margin: 0 auto;
+}
+
+h1.titleBlog {
+    color: #ac6084;   
+}
+
+.infobox5 {
+	width: 100%;
+	font: 30px 'TitilliumText22LBold', sans-serif;
+	background: #343c47;
+        padding-bottom: 10px;
+}
+
+.infobox5 p {
+    color: #ffffff !important;
+}
+.dmtagcloud a {
+    background: url(images/purple/tag_bg.png) left top no-repeat !important;
+}
+
+#foot_widgets_topB {
+    background: #446696 url(images/purple/foot_bg.jpg) no-repeat top center;
+}
+
+#foot_widgets_botB {
+    background: #446696 url(images/purple/foot_bg.jpg) no-repeat ;
+}
+
+.comm_reply_box:hover {
+	background: url(images/purple/replyh.png) left center no-repeat;	
+}
+
+#the_tweet {
+    background: url(images/purple/twitty.png) no-repeat left center;
+}
+
+#twitter_footer .bigButton:hover {
+    background: url(images/purple/bigbutton_h.jpg) repeat-x;    
+}
+
+#foot_widgets_hide {
+    background: url(images/purple/footer_hide.jpg);
+}
+
+.CS_searchform {
+	background: url(images/purple/search_bg.png) no-repeat left !important;
+}
+
+.CS_searchform_button {
+	background: url(images/purple/search_icon.png) no-repeat top !important;
+}
+
+.CS_searchform_button:hover {
+	background: url(images/purple/search_icon_h.png) no-repeat top !important;    
+}
+
+#DMbreadcumbs {
+    background: url(images/purple/home_icon.png) no-repeat left top;
+    color: #b790a5;
+}
+
+.dm_slider_tab {
+	background: #ffffff url(images/purple/dmbg.jpg) no-repeat 0px 5px;
+    	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.dm_slider_tab:hover h1 {
+	color: #727272;
+}
+
+.dm_slider_tab h1 {
+	position: relative;
+	font: 14px 'TitilliumText22LMedium', sans-serif;
+	text-transform: uppercase;
+	color: #919191;
+	text-shadow: #ffffff 0px -1px;
+}
+
+.dm_slider_play {
+	background: url(images/play.png);
+}
+
+#foot_widgets_hide p {
+    color: #ffffff;
+}
+
+#foot_last {
+    color: #fff;
+    background: url(images/purple/foot_cp.jpg) repeat-x top;
+}
+
+.footerSidebar, .footerSidebar a, .footerSidebarBot, .footerSidebarBot a {
+    color: #fff !important;
+	font: 10px/18px Lucida Sans Unicode, Lucida Grande, sans-serif;
+	padding-bottom: 10px;
+}
+
+#foot_widgets_top ul li ul li, #foot_widgets_bot ul li ul li {
+	border-bottom: 1px dotted #fff;
+}
+
+#side_nav a {
+	color: #666;
+}
+
+.sidebarRight a {
+	color: #666;
+}
+
+.sidebarRight {
+	color: #666;
+}
+
+.categories a:hover, .categoriesS a:hover {
+    color: #000;
+}
+
+.infobox4 {
+	background: #f3f5e3;
+}
+
+.infobox4 p {
+	color: #ac6084;
+}
+
+.contentbox2 {
+	/*background: #2e3641;*/
+}
+
+.titlebox2 {
+	background: #ooo;
+}
+
+#foot_widgets_top ul li ul li:hover, #foot_widgets_bot ul li ul li:hover {
+	background: url(images/purple/li_arrow.png) left center no-repeat !important;
+}
+
+#foot_widgets_top .LPlink span {
+    color: #c78cb0 !important;
+}
+
+.CS_searchform {
+	color: #999 !important;
+}
+
+.tableDark th {
+	background: #ac6084 !important;
+	color: #ffffff;
+}
+
+.pricingTable {
+	width: 100%;
+	text-align: center;
+	border: 1px solid #eeeeee;
+}
+
+.pricingTable th {
+	border: 0px !important;
+	border-right: 1px solid #dddddd !important;
+	font: 16px 'TitilliumText22LMedium', sans-serif;
+	color: #313131;
+	background: #e9e9e9 url(images/table_h_bg.jpg) top repeat-x;
+	padding: 5px 0px;
+}
+
+th.special {
+	font: 24px 'TitilliumText22LBold', sans-serif;
+	color: #ffffff;
+}
+
+.pricingTable td {
+	font: 12px Lucida Sans Unicode, Lucida Grande, sans-serif;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+}
+
+.pricingTable td.priceT {
+	background: #f7f7f7;
+}
+
+.priceFont {
+	font: 48px Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color: #ac6084;
+
+}
+
+.perMonthFont {
+	font: 14px 'TitilliumText22LRegular', sans-serif;	
+}
+
+.priceSpecial {
+	color: #313131;
+}
+
+.pricingTable tfoot td a {
+	display: block !important;
+	padding: 0px 20px !important;
+	margin: 0px 20px;
+}
+
+th.special {
+	border-top: 25px solid #ac6084 !important;
+	border-right: 5px solid #ac6084 !important;
+	border-left: 5px solid #ac6084 !important;
+	background: #ac6084;
+}
+
+.priceSpecial {
+	border-right: 5px solid #ac6084 !important;
+	border-left: 5px solid #ac6084;
+}
+
+.pricingTable tfoot td.footerSpecial {
+	border-right: 5px solid #ac6084 !important;
+	border-left: 5px solid #ac6084;
+	border-bottom: 5px solid #ac6084;	
+}
+
+.footerSidebar h2, .footerSidebarBot h2 {
+    color: #ffffff !important;
+}
+
+#footer input, #footer textarea {
+/*    background: #5a243e url(images/purple/footinput.jpg) repeat-x top;
+*/    border-bottom: 1px solid #7d5267;
+    color: #7d5267;
+}
+
+#footer textarea:focus {
+    border:none;
+    border-bottom: 1px solid #7d5267;
+}
+
+#footer form p {
+    color: #fff;
+}
+
+#footer .wpcf7-submit {
+    background: url(images/purple/mediumbutton_h.jpg) repeat-x !important;
+    color: #e9dae1 !important;
+}
+
+.infobox5 .mediumButton {
+    background: url(images/purple/infobox1b.jpg) bottom repeat-x !important;
+    color: #ffffff !important;
+    text-shadow: none;
+}
+
+.infobox5 .mediumButton:hover {
+    background: url(images/purple/infobox1b.jpg) top repeat-x !important;
+    color: #873d60 !important;
+}
+
+.infobox4 .mediumButton {
+    background: url(images/purple/infobox1b.jpg) top repeat-x !important;
+    color: #873d60 !important;
+
+}
+
+.infobox4 .mediumButton:hover {
+    background: url(images/purple/infobox1b.jpg) bottom repeat-x !important;
+    color: #ffffff !important;
+}

@@ -1,0 +1,386 @@
+/* fire skin styles */
+body {
+    background: #ececec url(images/fire/body_bg.jpg) top repeat-x;
+}
+
+#bgWrapper {
+    background: url(images/fire/main_bg.jpg) top center no-repeat;
+}
+
+#logoMenu {
+    background: url(images/fire/border_bot.png) bottom repeat-x;
+}
+
+#navtop {
+    margin: 0 auto;
+    width: 100%;
+    background: #de4205 url(images/fire/nav_top.jpg) bottom center no-repeat;
+}
+
+a {
+    color: #f5c7b4;
+}
+
+a:hover {
+    color: #eea080;
+}
+
+.sf-menu a {
+    color: #f2b39b;
+}
+
+#topCaption p {
+    color: #ffffff !important;
+}
+
+.postExcerpt h1 a, .fwh1 a, .fwh1m a {
+    color: #ea5d26;
+    text-decoration: none;
+}
+
+.postExcerpt h1 a:hover, .fwh1 a:hover, .fwh1m a:hover {
+    color: #a46a67;    
+}
+
+.sidebarRight ul li ul li:hover a {
+    color: #eea080;	
+}
+
+.sf-menu li:hover a, .current-menu-item a {
+    color: #ffffff;
+    border-bottom: 4px solid #ffc292;
+}
+
+.sf-menu li li a {
+    background: #fff2e9;
+    border-bottom: 1px solid #f0e4db !important;
+    color: #dd7b6d !important;
+}
+
+.sf-menu li li:hover a {
+    border-bottom: 1px solid #dcdfe2 !important;
+    background:#ffffff;
+    color: #3c4349 !important;
+}
+
+.sf-menu li li li a {
+    background: #fff2e9;
+    color: #dd7b6d !important;
+}
+
+.sf-menu li li:hover li a {
+    background: #fff2e9;
+    color: #dd7b6d !important;
+}
+
+.sf-menu li li li a:hover {
+    background:#ffffff;
+    color: #3c4349 !important;
+}
+
+
+.bigButton {
+    background: url(images/fire/bigbutton.jpg) center;
+    color: #838889;
+}
+
+.bigButton:hover {
+    background: url(images/fire/bigbutton_h.jpg) center;
+    color: #ffffff;  
+}
+
+
+.bigButton span {
+    background: url(images/fire/big_button_arrow.png) no-repeat right;
+}
+
+.bigButton:hover span {
+    background: url(images/fire/big_button_arrow_h.png) no-repeat right;
+}
+
+.mediumButton, #submitC, .mediumButtonLeft , .wpcf7-submit {
+    color: #838889;
+    background: url(images/fire/mediumbutton.jpg) repeat-x;
+}
+
+.mediumButton:hover, #submitC:hover, .mediumButtonLeft:hover, .wpcf7-submit:hover  {
+    background: url(images/fire/mediumbutton_h.jpg) repeat-x;
+    color: #ffffff;  
+}
+
+.mediumButton:hover span {
+    background: url(images/fire/medium_button_arrow.png) right center no-repeat;    
+}
+
+.mediumButtonLeft:hover span {
+    background: url(images/fire/medium_button_arrow_l.png) left center no-repeat;    
+}
+
+#singleTitle {
+    background: #f59b44 url(images/fire/title_bg.jpg) top repeat-x;
+    border-bottom: 1px solid #d94005;
+    width: 980px;
+    margin: 0 auto;
+}
+
+h1.titleBlog {
+    color: #ea5d26;   
+}
+
+.infobox5 {
+	width: 100%;
+	font: 30px 'TitilliumText22LBold', sans-serif;
+	background: #fc8e37;
+        padding-bottom: 10px;
+}
+
+.infobox5 p {
+    color: #ffffff !important;
+}
+.dmtagcloud a {
+    background: url(images/fire/tag_bg.png) left top no-repeat !important;
+}
+
+#foot_widgets_topB {
+    background: #e95e17 url(images/fire/foot_bg.jpg) no-repeat top center;
+}
+
+#foot_widgets_botB {
+    background: #e95e17 url(images/fire/foot_bg.jpg) no-repeat ;
+}
+
+.comm_reply_box:hover {
+	background: url(images/fire/replyh.png) left center no-repeat;	
+}
+
+#the_tweet {
+    background: url(images/fire/twitty.png) no-repeat left center;
+}
+
+#twitter_footer .bigButton:hover {
+    background: url(images/fire/bigbutton_h.jpg) repeat-x;    
+}
+
+#foot_widgets_hide {
+    background: url(images/fire/footer_hide.jpg);
+}
+
+.CS_searchform {
+	background: url(images/fire/search_bg.png) no-repeat left !important;
+}
+
+.CS_searchform_button {
+	background: url(images/fire/search_icon.png) no-repeat top !important;
+}
+
+.CS_searchform_button:hover {
+	background: url(images/fire/search_icon_h.png) no-repeat top !important;    
+}
+
+#DMbreadcumbs {
+    background: url(images/fire/home_icon.png) no-repeat left top;
+    color: #f5c7b4;
+}
+
+.dm_slider_tab {
+	background: #ffffff url(images/fire/dmbg.jpg) no-repeat 0px 5px;
+    	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.dm_slider_tab:hover h1 {
+	color: #727272;
+}
+
+.dm_slider_tab h1 {
+	position: relative;
+	font: 14px 'TitilliumText22LMedium', sans-serif;
+	text-transform: uppercase;
+	color: #919191;
+	text-shadow: #ffffff 0px -1px;
+}
+
+.dm_slider_play {
+	background: url(images/play.png);
+}
+
+#foot_widgets_hide p {
+    color: #ffffff;
+}
+
+#foot_last {
+    color: #e08455;
+    background: url(images/fire/foot_cp.jpg) repeat-x top;
+}
+
+.footerSidebar, .footerSidebar a, .footerSidebarBot, .footerSidebarBot a {
+    color: #fce1d2 !important;
+}
+
+#foot_widgets_top ul li ul li, #foot_widgets_bot ul li ul li {
+	border-bottom: 1px dotted #ed7f3d;
+}
+
+#side_nav a {
+	color: #ea5d26;
+}
+
+.sidebarRight a {
+	color: #ea5d26;
+}
+
+.sidebarRight {
+	color: #ea5d26;
+}
+
+.categories a:hover, .categoriesS a:hover {
+    color: #ea5d26;
+}
+
+.infobox4 {
+	background: #faebe9;
+}
+
+.infobox4 p {
+	color: #ea5d26;
+}
+
+.contentbox2 {
+	background: #eb791f;
+}
+
+.titlebox2 {
+	background: #fc8e37;
+}
+
+#foot_widgets_top ul li ul li:hover, #foot_widgets_bot ul li ul li:hover {
+	background: url(images/fire/li_arrow.png) left center no-repeat !important;
+}
+
+#foot_widgets_top .LPlink span {
+    color: #f5a77a !important;
+}
+
+.CS_searchform {
+	color: #ffffff !important;
+}
+
+.tableDark th {
+	background: #ea5d26 !important;
+	color: #ffffff;
+}
+
+.pricingTable {
+	width: 100%;
+	text-align: center;
+	border: 1px solid #eeeeee;
+}
+
+.pricingTable th {
+	border: 0px !important;
+	border-right: 1px solid #dddddd !important;
+	font: 16px 'TitilliumText22LMedium', sans-serif;
+	color: #313131;
+	background: #e9e9e9 url(images/table_h_bg.jpg) top repeat-x;
+	padding: 5px 0px;
+}
+
+th.special {
+	font: 24px 'TitilliumText22LBold', sans-serif;
+	color: #ffffff;
+}
+
+.pricingTable td {
+	font: 12px Lucida Sans Unicode, Lucida Grande, sans-serif;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+}
+
+.pricingTable td.priceT {
+	background: #f7f7f7;
+}
+
+.priceFont {
+	font: 48px Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color: #ea5d26;
+
+}
+
+.perMonthFont {
+	font: 14px 'TitilliumText22LRegular', sans-serif;	
+}
+
+.priceSpecial {
+	color: #313131;
+}
+
+.pricingTable tfoot td a {
+	display: block !important;
+	padding: 0px 20px !important;
+	margin: 0px 20px;
+}
+
+th.special {
+	border-top: 25px solid #ea5d26 !important;
+	border-right: 5px solid #ea5d26 !important;
+	border-left: 5px solid #ea5d26 !important;
+	background: #ea5d26;
+}
+
+.priceSpecial {
+	border-right: 5px solid #ea5d26 !important;
+	border-left: 5px solid #ea5d26;
+}
+
+.pricingTable tfoot td.footerSpecial {
+	border-right: 5px solid #ea5d26 !important;
+	border-left: 5px solid #ea5d26;
+	border-bottom: 5px solid #ea5d26;	
+}
+
+.footerSidebar h2, .footerSidebarBot h2 {
+    color: #ffffff !important;
+}
+
+#footer input, #footer textarea {
+    background: #e25d13 url(images/fire/footinput.jpg) repeat-x top;
+    border-bottom: 1px solid #ec9464;
+    color: #ec9464;
+}
+
+#footer textarea:focus {
+    border:none;
+    border-bottom: 1px solid #ec9464;
+}
+
+#footer form p {
+    color: #FCE1D2;
+}
+
+#footer .wpcf7-submit {
+    background: url(images/fire/mediumbutton_h.jpg) repeat-x !important;
+    color: #f8e3cf !important;
+}
+
+.infobox5 .mediumButton {
+    background: url(images/fire/infobox1b.jpg) bottom repeat-x !important;
+    color: #ffffff !important;
+    text-shadow: none;
+}
+
+.infobox5 .mediumButton:hover {
+    background: url(images/fire/infobox1b.jpg) top repeat-x !important;
+    color: #ff8d35 !important;
+}
+
+.infobox4 .mediumButton {
+    background: url(images/fire/infobox1b.jpg) top repeat-x !important;
+        color: #ff8d35 !important;
+
+}
+
+.infobox4 .mediumButton:hover {
+    background: url(images/fire/infobox1b.jpg) bottom repeat-x !important;
+    color: #ffffff !important;
+}

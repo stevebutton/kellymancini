@@ -1,0 +1,373 @@
+/* blue skin styles */
+body {
+    background: #ececec url(images/blue/body_bg.jpg) top repeat-x;
+}
+
+#bgWrapper {
+    background: url(images/blue/main_bg.jpg) top center no-repeat;
+}
+
+#logoMenu {
+    background: url(images/blue/border_bot.png) bottom repeat-x;
+}
+
+#navtop {
+    margin: 0 auto;
+    width: 100%;
+    background: #03192e url(images/blue/nav_top.jpg) bottom center no-repeat;
+}
+
+a {
+    color: #6b7f92;
+}
+
+a:hover {
+    color: #092a49;
+}
+
+.sf-menu a {
+    color: #8597a9;
+}
+
+.postExcerpt h1 a, .fwh1 a, .fwh1m a {
+    color: #30689f;
+    text-decoration: none;
+}
+
+.postExcerpt h1 a:hover, .fwh1 a:hover, .fwh1m a:hover {
+    color: #45515d;    
+}
+
+.sidebarRight ul li ul li:hover a {
+    color: #2c343a;	
+}
+
+.sf-menu li:hover a, .current-menu-item a {
+    color: #cbd0d5;
+    border-bottom: 4px solid #c0c2c4;
+}
+
+.sf-menu li li a {
+    background: #eef1f4;
+    border-bottom: 1px solid #dcdfe2 !important;
+    color: #608ab4 !important;
+}
+
+.sf-menu li li:hover a {
+    border-bottom: 1px solid #dcdfe2 !important;
+    background:#ffffff;
+    color: #3c4349 !important;
+}
+
+.sf-menu li li li a {
+    background: #eef1f4;
+    color: #608ab4 !important;
+}
+
+.sf-menu li li:hover li a {
+    background: #eef1f4;
+    color: #608ab4 !important;
+}
+
+.sf-menu li li li a:hover {
+    background:#ffffff;
+    color: #3c4349 !important;
+}
+
+
+.bigButton {
+    background: url(images/blue/bigbutton_s.jpg) top repeat-x;
+    color: #838889;
+}
+
+.bigButton:hover {
+    background: url(images/blue/bigbutton_s.jpg) bottom repeat-x;
+    color: #ffffff;  
+}
+
+
+.bigButton span {
+    background: url(images/blue/big_button_arrow.png) no-repeat right;
+}
+
+.bigButton:hover span {
+    background: url(images/blue/big_button_arrow_h.png) no-repeat right;
+}
+
+.mediumButton, #submitC, .mediumButtonLeft, .wpcf7-submit   {
+    color: #838889;
+    background: url(images/blue/mediumbutton_s.jpg) top repeat-x;
+}
+
+.mediumButton:hover, #submitC:hover, .mediumButtonLeft:hover, .wpcf7-submit:hover {
+    background: url(images/blue/mediumbutton_s.jpg) bottom repeat-x;
+    color: #ffffff;  
+}
+
+.mediumButton:hover span {
+    background: url(images/blue/medium_button_arrow.png) right center no-repeat;    
+}
+
+.mediumButtonLeft:hover span {
+    background: url(images/blue/medium_button_arrow_l.png) left center no-repeat;    
+}
+
+#singleTitle {
+    background: #0d345c url(images/blue/title_bg.jpg) top repeat-x;
+    border-bottom: 1px solid #242b31;
+    width: 980px;
+    margin: 0 auto;
+}
+
+h1.titleBlog {
+    color: #30689f;   
+}
+
+.infobox5 {
+	width: 100%;
+	font: 30px 'TitilliumText22LBold', sans-serif;
+	background: #082948;
+        padding-bottom: 10px;
+}
+
+.infobox5 p {
+    color: #ffffff !important;
+}
+.dmtagcloud a {
+    background: url(images/blue/tag_bg.png) left top no-repeat !important;
+}
+
+#foot_widgets_topB {
+    background: #092a49 url(images/blue/foot_bg.jpg) no-repeat top center;
+}
+
+#foot_widgets_botB {
+    background: #092a49 url(images/blue/foot_bg.jpg) no-repeat ;
+}
+
+.comm_reply_box:hover {
+	background: url(images/blue/replyh.png) left center no-repeat;	
+}
+
+#the_tweet {
+    background: url(images/blue/twitty.png) no-repeat left center;
+}
+
+#twitter_footer .bigButton:hover {
+    background: url(images/blue/bigbutton_h.jpg) repeat-x;    
+}
+
+#foot_widgets_hide {
+    background: url(images/blue/footer_hide.jpg);
+}
+
+.CS_searchform {
+	background: url(images/blue/search_bg.png) no-repeat left !important;
+}
+
+.CS_searchform_button {
+	background: url(images/blue/search_icon.png) no-repeat top !important;
+}
+
+.CS_searchform_button:hover {
+	background: url(images/blue/search_icon_h.png) no-repeat top !important;    
+}
+
+#DMbreadcumbs {
+    background: url(images/blue/home_icon.png) no-repeat left top;
+    color: #6b7f92;
+}
+
+.dm_slider_tab {
+	background: #ffffff url(images/blue/dmbg.jpg) no-repeat 0px 5px;
+    	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.dm_slider_tab:hover h1 {
+	color: #727272;
+}
+
+.dm_slider_tab h1 {
+	position: relative;
+	font: 14px 'TitilliumText22LMedium', sans-serif;
+	text-transform: uppercase;
+	color: #919191;
+	text-shadow: #ffffff 0px -1px;
+}
+
+.dm_slider_play {
+	background: url(images/play.png);
+}
+
+#foot_widgets_hide p {
+    color: #ffffff;
+}
+
+#foot_last {
+    color: #516475;
+    background: url(images/blue/foot_cp.jpg) repeat-x top;
+}
+
+.footerSidebar, .footerSidebar a, .footerSidebarBot, .footerSidebarBot a {
+    color: #879baf !important;
+}
+
+#foot_widgets_top ul li ul li, #foot_widgets_bot ul li ul li {
+	border-bottom: 1px dotted #2c4e70;
+}
+
+#side_nav a {
+	color: #092a49;
+}
+
+.sidebarRight a {
+	color: #092a49;
+}
+
+.sidebarRight {
+	color: #092a49;
+}
+
+.categories a:hover, .categoriesS a:hover {
+    color: #092a49;
+}
+
+.infobox4 {
+    	background: #ebeef3;	
+}
+
+.infobox4 p {
+	color: #52616f;
+}
+
+.contentbox2 {
+	background: #082948;
+}
+
+.titlebox2 {
+	background: #113d67;
+}
+
+.CS_searchform {
+	color: #ffffff !important;
+}
+
+.tableDark th {
+	background: #313131 !important;
+	color: #ffffff;
+}
+
+.pricingTable {
+	width: 100%;
+	text-align: center;
+	border: 1px solid #eeeeee;
+}
+
+.pricingTable th {
+	border: 0px !important;
+	border-right: 1px solid #dddddd !important;
+	font: 16px 'TitilliumText22LMedium', sans-serif;
+	color: #313131;
+	background: #e9e9e9 url(images/table_h_bg.jpg) top repeat-x;
+	padding: 5px 0px;
+}
+
+th.special {
+	font: 24px 'TitilliumText22LBold', sans-serif;
+	color: #ffffff;
+}
+
+.pricingTable td {
+	font: 12px Lucida Sans Unicode, Lucida Grande, sans-serif;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+}
+
+.pricingTable td.priceT {
+	background: #f7f7f7;
+}
+
+.priceFont {
+	font: 48px Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color: #30689f;
+
+}
+
+.perMonthFont {
+	font: 14px 'TitilliumText22LRegular', sans-serif;	
+}
+
+.priceSpecial {
+	color: #313131;
+}
+
+.pricingTable tfoot td a {
+	display: block !important;
+	padding: 0px 20px !important;
+	margin: 0px 20px;
+}
+
+th.special {
+	border-top: 25px solid #30689f !important;
+	border-right: 5px solid #30689f !important;
+	border-left: 5px solid #30689f !important;
+	background: #90999f;
+}
+
+.priceSpecial {
+	border-right: 5px solid #30689f !important;
+	border-left: 5px solid #30689f;
+}
+
+.pricingTable tfoot td.footerSpecial {
+	border-right: 5px solid #30689f !important;
+	border-left: 5px solid #30689f;
+	border-bottom: 5px solid #30689f;	
+}
+
+.footerSidebar h2, .footerSidebarBot h2 {
+    color: #ffffff !important;
+}
+
+#footer input, #footer textarea {
+    background: #082847 url(images/blue/footinput.jpg) repeat-x top;
+    color: #53697f;
+}
+
+#footer textarea:focus {
+    border:none;
+    border-bottom: 1px solid #2b4661;
+}
+
+#footer form p {
+    color: #879BAF;
+}
+
+#footer .wpcf7-submit {
+    background: url(images/blue/mediumbutton_s.jpg) bottom repeat-x !important;
+    color: #ffffff !important;
+}
+
+.infobox5 .mediumButton {
+    background: url(images/blue/infobox1b.jpg) bottom repeat-x !important;
+    color: #ffffff !important;
+    text-shadow: none;
+}
+
+.infobox5 .mediumButton:hover {
+    background: url(images/blue/infobox1b.jpg) top repeat-x !important;
+    color: #20639a !important;
+}
+
+.infobox4 .mediumButton {
+    background: url(images/blue/infobox1b.jpg) top repeat-x !important;
+        color: #20639a !important;
+
+}
+
+.infobox4 .mediumButton:hover {
+    background: url(images/blue/infobox1b.jpg) bottom repeat-x !important;
+    color: #ffffff !important;
+}
