@@ -76,8 +76,8 @@ portfolioScripts();
                 </div>
                 <div class="separator2038"></div>
                 <!--DESCRIPTION-->
-	                <span class="arnaud-title all">The MAK Team</span>
-                    <span class="arnaud-descr all">Knowledgeable, experienced, focused, tenacious.  These are just a few of the attributes shared by the MAK legal professionals who dedicate themselves to your success. Click on a picture to read a bio or use the buttons above to view our team by areas of specialization.</span>
+	                <span class="arnaud-title all">The K&M Team</span>
+                    <span class="arnaud-descr all">Knowledgeable, experienced, focused, tenacious.  These are just a few of the attributes shared by the K&M legal professionals who dedicate themselves to your success. Click on a picture to read a bio or use the buttons above to view our team by areas of specialization.</span>
                     <?php $terms = get_terms('types');     
                     foreach ( $terms as $term ) {
 					echo '<span class="arnaud-title '.$term->slug.'">'.$term->name.'</span>';

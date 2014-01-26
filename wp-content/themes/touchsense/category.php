@@ -5,7 +5,7 @@
 <div id="singleTitle">
     <div id="theTitle" style="width: <?php if (get_option('dm_ts_search') == 'Yes') { echo '650px'; } else { echo '900px; margin-right: 40';} ?>">
         <h1><?php single_cat_title(); ?></h1>
-        <blockquote>Browse the latest news on MAK and its clients, or view news<br/>by the categories listed in the right-hand menu.</blockquote>
+        <blockquote>Browse the latest news on K&amp;M and its clients, or view news<br/>by the categories listed in the right-hand menu.</blockquote>
     </div>
     <?php if (get_option('dm_ts_search') == 'Yes') { ?>
         <div id="searchW">

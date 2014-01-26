@@ -60,9 +60,9 @@
 <h3>Blackstone Smithfield Corporation  |  Bucci Development, Inc.</h3>
 <h3>Capital Associates, Inc.  |  Cullion Concrete</h3>
 
-<h3>Rhode Island Builders Association  |  Shire Corporation</h3>
+<h3>Rhode Island Builders Association  |  Smithfield Peat Co., Inc.</h3>
 
-<h3>Smithfield Peat Co., Inc.  |  Cashman Equipment Corp </h3>
+<h3>Cashman Equipment Corp  |  Paolino Properties</h3>
 
 <p></div> 
 <div class="oneThirdLast"></p> 

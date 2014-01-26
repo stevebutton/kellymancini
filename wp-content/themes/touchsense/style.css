@@ -1337,6 +1337,7 @@ p.showmore {
 
 #dm_nivo_wrap .nivo-controlNav {
     position: absolute;
+	display: none;
     right: 20px;
     bottom: 20px;
 }
