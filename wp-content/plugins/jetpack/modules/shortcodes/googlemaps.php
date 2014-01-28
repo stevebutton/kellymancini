@@ -6,7 +6,7 @@
  * into the [googlemaps http://...] shortcode format
  */
 function jetpack_googlemaps_embed_to_short_code( $content ) {
-	if ( false === strpos( $content, 'maps.google.' ) && false === strpos( $content, 'google.com/maps' ) )
+	if ( false === strpos( $content, 'maps.google.' ) && false === preg_match( '@google\.[^/]+/maps@', $content ) )
 		return $content;
 
 	// IE and TinyMCE format things differently
@@ -75,9 +75,13 @@ function jetpack_googlemaps_shortcode( $atts ) {
 			}
 		}
 		$url = substr( $url, 0, -5 );
+
+		if( is_ssl() )
+			$url = str_replace( 'http://', 'https://', $url );
+
 		$link_url = preg_replace( '!output=embed!', 'source=embed', $url );
 
-		return '<iframe width="' . $width . '" height="' . $height . '" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="' . $url . '"></iframe><br /><small><a href="' . $link_url . '" style="text-align:left">View Larger Map</a></small>';
+		return '<div class="googlemaps"><iframe width="' . $width . '" height="' . $height . '" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="' . $url . '"></iframe><br /><small><a href="' . $link_url . '" style="text-align:left">View Larger Map</a></small></div>';
 	}
 }
 add_shortcode( 'googlemaps', 'jetpack_googlemaps_shortcode' );

@@ -31,7 +31,7 @@
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-26241130-1']);
+  _gaq.push(['_setAccount', 'UA-47561256-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {

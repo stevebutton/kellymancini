@@ -1,0 +1,113 @@
+.busi-custom-div {
+
+    border: 0px #050505 solid;
+
+    float: left;
+
+    width: 100%;
+
+}
+
+
+
+.one-third {
+
+  
+
+    float: left;
+
+    
+
+   
+
+  
+
+   border: 2px solid #ccc;
+
+   
+
+    font-size: 13px;
+
+    line-height: 2.0em;
+
+    overflow: auto;
+
+  
+
+    position: relative;
+
+	
+
+	
+
+
+
+
+
+}
+
+}
+
+
+
+
+
+
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="url"], select {
+
+    background-color: #FFFFFF;
+
+    color: #333333;
+
+    width: 90%;
+
+}
+
+
+
+hr {
+
+    border: 1px dashed rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+
+.handlediv {
+
+    background:url(../images/arrow-dark.png)  50% no-repeat;
+
+}
+
+
+
+.plugin-title{
+
+height: 70px;
+
+padding-top:10px;
+
+padding-left:10px;
+
+background: url(../images/Untitled.png) repeat-x left top;
+
+border: 1px solid #a4bbcd;
+
+border-top-left-radius: 5px;
+
+-moz-border-radius-topleft: 5px;
+
+-webkit-border-top-left-radius: 5px;
+
+-webkit-border-top-right-radius: 5px;
+
+border-top-right-radius: 5px;
+
+-moz-border-radius-topright: 5px;
+
+
+
+}
